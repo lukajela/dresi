@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filters {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.filters input, .filters select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.dres {
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.dres:hover {
+  transform: scale(1.05);
+}
+
+.dres img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.dres p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 5px 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel .prev {
+  left: 5px;
+}
+
+.carousel .next {
+  right: 5px;
+}
+
+
+.dres-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.dres-slider img {
+  width: 100%;
+  display: none;
+}
+
+.dres-slider img.active {
+  display: block;
+}
+
+.dres-slider .prev,
+.dres-slider .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.dres-slider .prev {
+  left: 10px;
+}
+
+.dres-slider .next {
+  right: 10px;
+}
+
+.dres-slider img {
+  display: none;
+}
+
+.dres-slider img.active {
+  display: block;
+}
