@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dresi - Demo</title>
+  <title>Football shirts</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <h1>Pregled Dresi</h1>
+    <h1>Football shirts</h1>
     <div class="filters">
-      <input type="text" id="search" placeholder="Išči drese...">
+      <input type="text" id="search" placeholder="Search...">
   
       <select id="filter-club">
-        <option value="">Vsi klubi</option>
+        <option value="">All clubs</option>
         <option value="AC Milan">AC Milan</option>
         <option value="Arsenal">Arsenal</option>
         <option value="Atletico Madrid">Atletico Madrid</option>
@@ -34,7 +34,7 @@
       </select>
   
       <select id="filter-firma">
-        <option value="">Vse firme</option>
+        <option value="">Brand</option>
         <option value="Adidas">Adidas</option>
         <option value="Nike">Nike</option>
         <option value="Puma">Puma</option>
@@ -43,14 +43,20 @@
       </select>
   
       <select id="filter-liga">
-        <option value="">Vse lige</option>
+        <option value="">All leagues</option>
         <option value="Premier League">Premier League</option>
         <option value="Serie A">Serie A</option>
         <option value="La Liga">La Liga</option>
         <option value="Bundesliga">Bundesliga</option>
         <option value="Ligue 1">Ligue 1</option>
         <option value="Liga Portugal">Liga Portugal</option>
+        <option value="National Team">National Team</option>
       </select>
+    </div>
+    <div class="info">
+      <h2>Normal shirt - <span class="price">30€</span></h2>
+      <h2>Retro shirt - <span class="price">35€</span></h2>
+
     </div>
   </header>
   
@@ -82,10 +88,10 @@
           <img src="Slike/AC Milan/07.08 home/ec8dc0aced9493045fa2aa44dda0f3ad.webp" alt="AC Milan 07.08 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>AC Milan 07.08 home</p>
+      <p>AC Milan 07,08 home</p>
     </div>
   
-    <div class="dres" data-klub="AC Milan" data-firma="Puma" data-leto="2025" data-liga="Serie A">
+    <div class="dres" data-klub="AC Milan" data-firma="Puma" data-leto="2013" data-liga="Serie A">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/AC Milan/13.14 away/055dc24e6529ebb7f1aa9154cbfe1421.webp" alt="AC Milan 13.14 away" class="active">
@@ -99,10 +105,10 @@
           <img src="Slike/AC Milan/13.14 away/bca648edace839fadc0b21e9f97ea23a.webp" alt="AC Milan 13.14 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>AC Milan 13.14 away</p>
+      <p>AC Milan 13,14 away</p>
     </div>
   
-    <div class="dres" data-klub="AC Milan" data-firma="Puma" data-leto="2025" data-liga="Serie A">
+    <div class="dres" data-klub="AC Milan" data-firma="Puma" data-leto="2021" data-liga="Serie A">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/AC Milan/21.22 home/01293430842abcff420637c0acac9285.webp" alt="AC Milan 21.22 home" class="active">
@@ -115,10 +121,10 @@
           <img src="Slike/AC Milan/21.22 home/f3145b7d939ad0440428bb06f8152a43.webp" alt="AC Milan 21.22 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>AC Milan 21.22 home</p>
+      <p>AC Milan 21,22 home</p>
     </div>
   
-    <div class="dres" data-klub="AC Milan" data-firma="Puma" data-leto="2025" data-liga="Serie A">
+    <div class="dres" data-klub="AC Milan" data-firma="Puma" data-leto="2022" data-liga="Serie A">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/AC Milan/22.23 away/2ebf5c2f2ac8135dadb28469c3414b57.webp" alt="AC Milan 22.23 away" class="active">
@@ -133,10 +139,10 @@
           <img src="Slike/AC Milan/22.23 away/c03b0a8a3de5d0623d8dcec1c646a24e.webp" alt="AC Milan 22.23 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>AC Milan 22.23 away</p>
+      <p>AC Milan 22,23 away</p>
     </div>
   
-    <div class="dres" data-klub="AC Milan" data-firma="Puma" data-leto="2025" data-liga="Serie A">
+    <div class="dres" data-klub="AC Milan" data-firma="Puma" data-leto="2023" data-liga="Serie A">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/AC Milan/23.24 home player/0bea82ce8227f70eb60c42ec95436bda.webp" alt="AC Milan 23.24 home player" class="active">
@@ -145,7 +151,7 @@
           <img src="Slike/AC Milan/23.24 home player/6de09ebd1d5171b64a4a65cd2d22f270.webp" alt="AC Milan 23.24 home player">
         <button class="next">&#10095;</button>
       </div>
-      <p>AC Milan 23.24 home player</p>
+      <p>AC Milan 23,24 home player</p>
     </div>
   
     <div class="dres" data-klub="AC Milan" data-firma="Puma" data-leto="2025" data-liga="Serie A">
@@ -159,7 +165,7 @@
           <img src="Slike/AC Milan/24.25 kidare away/b75e2812fd7278f7a08ca7879de21b5b.webp" alt="AC Milan 24.25 kidare away">
         <button class="next">&#10095;</button>
       </div>
-      <p>AC Milan 24.25 kidare away</p>
+      <p>AC Milan 24,25 kids away</p>
     </div>
   
     <div class="dres" data-klub="AC Milan" data-firma="Puma" data-leto="2025" data-liga="Serie A">
@@ -168,7 +174,7 @@
   <img src="Slike/AC Milan/96.97 away/2802547f08f50fed985d9d87c27fcb7f.webp" alt="AC Milan 96.97 away" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>AC Milan 96.97 away</p>
+      <p>AC Milan 96,97 away</p>
     </div>
   
     <div class="dres" data-klub="AC Milan" data-firma="Puma" data-leto="2025" data-liga="Serie A">
@@ -182,7 +188,7 @@
           <img src="Slike/AC Milan/96.97 home/64c42a5ac25c8c16d8394b2f4e27910d.webp" alt="AC Milan 96.97 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>AC Milan 96.97 home</p>
+      <p>AC Milan 96,97 home</p>
     </div>
   
     <div class="dres" data-klub="AC Milan" data-firma="Puma" data-leto="2025" data-liga="Serie A">
@@ -199,7 +205,7 @@
           <img src="Slike/AC Milan/99.00 home/f043ad8494f6b7120e63d71dab5cd97a.webp" alt="AC Milan 99.00 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>AC Milan 99.00 home</p>
+      <p>AC Milan 99,00 home</p>
     </div>
   
     <div class="dres" data-klub="argentina" data-firma="Adidas" data-leto="2025" data-liga="National Team">
@@ -208,7 +214,7 @@
   <img src="Slike/argentina/14 away/3884463260a9170c8a0813e02203c8e7.webp" alt="argentina 14 away" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>argentina 14 away</p>
+      <p>Argentina 2014 away</p>
     </div>
   
     <div class="dres" data-klub="argentina" data-firma="Adidas" data-leto="2025" data-liga="National Team">
@@ -223,10 +229,10 @@
           <img src="Slike/argentina/20 home/ce32811ef5aefdb67eb880e5bfc1d8fc.webp" alt="argentina 20 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>argentina 20 home</p>
+      <p>Argentina 2020 home</p>
     </div>
   
-    <div class="dres" data-klub="argentina" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="argentina" data-firma="Adidas" data-leto="2022" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/argentina/22 away/0eb6bd9be3105e52c93f168a1fbff662.webp" alt="argentina 22 away" class="active">
@@ -240,10 +246,10 @@
           <img src="Slike/argentina/22 away/dad2891bbbe786d80bc8dc13b02fa00e.webp" alt="argentina 22 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>argentina 22 away</p>
+      <p>Argentina 2022 away</p>
     </div>
   
-    <div class="dres" data-klub="argentina" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="argentina" data-firma="Adidas" data-leto="2022" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/argentina/22 home/3e7bd28d7a1001fb09bdfaa1d6709708.webp" alt="argentina 22 home" class="active">
@@ -256,7 +262,7 @@
           <img src="Slike/argentina/22 home/9c2d1621fd4d0b4d629a5bc7eed54c89.webp" alt="argentina 22 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>argentina 22 home</p>
+      <p>Argentina 2022 home</p>
     </div>
   
     <div class="dres" data-klub="argentina" data-firma="Adidas" data-leto="2025" data-liga="National Team">
@@ -273,7 +279,7 @@
           <img src="Slike/argentina/24 home/eb4856ae426d58315437b652e26581a5.webp" alt="argentina 24 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>argentina 24 home</p>
+      <p>Argentina 2024 home</p>
     </div>
   
     <div class="dres" data-klub="argentina" data-firma="Adidas" data-leto="2025" data-liga="National Team">
@@ -287,7 +293,7 @@
           <img src="Slike/argentina/86 home/eac78e5a4cfe422660f63328bc33fe3c.webp" alt="argentina 86 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>argentina 86 home</p>
+      <p>Argentina 1986 home</p>
     </div>
   
     <div class="dres" data-klub="argentina" data-firma="Adidas" data-leto="2025" data-liga="National Team">
@@ -303,7 +309,7 @@
           <img src="Slike/argentina/96 home/f8478369e2b4907b3ba53669c1b72585.webp" alt="argentina 96 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>argentina 96 home</p>
+      <p>Argentina 1996 home</p>
     </div>
   
     <div class="dres" data-klub="Arsenal" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -329,7 +335,7 @@
           <img src="Slike/Arsenal/brez rokavov bele/463496fb90f376e372021ce687cb3681.webp" alt="Arsenal brez rokavov bele">
         <button class="next">&#10095;</button>
       </div>
-      <p>Arsenal brez rokavov bele</p>
+      <p>Arsenal white without sleeves </p>
     </div>
   
     <div class="dres" data-klub="Arsenal" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -347,7 +353,7 @@
           <img src="Slike/Arsenal/home 2324/cd8b27be63802625bc4209aba67128e7.webp" alt="Arsenal home 2324">
         <button class="next">&#10095;</button>
       </div>
-      <p>Arsenal home 2324</p>
+      <p>Arsenal home 23,24</p>
     </div>
   
     <div class="dres" data-klub="Arsenal" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -375,7 +381,7 @@
           <img src="Slike/Arsenal/home hlacke 24,25/ea17d21dd2a305f1dbefd9019a5ff9cc.webp" alt="Arsenal home hlacke 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>Arsenal home hlacke 24,25</p>
+      <p>Arsenal home shorts 24,25</p>
     </div>
   
     <div class="dres" data-klub="Arsenal" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -396,7 +402,7 @@
           <img src="Slike/Arsenal/otroški home 23,24/c9b809fc1eb2c166e5fba6bc9f63e0b8.webp" alt="Arsenal otroški home 23,24">
         <button class="next">&#10095;</button>
       </div>
-      <p>Arsenal otroški home 23,24</p>
+      <p>Arsenal kids home 23,24</p>
     </div>
   
     <div class="dres" data-klub="Arsenal" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -411,7 +417,7 @@
           <img src="Slike/Arsenal/otroški home 24,25/b998f2092000e6496f33b52a976f8d4d.webp" alt="Arsenal otroški home 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>Arsenal otroški home 24,25</p>
+      <p>Arsenal kids home 24,25</p>
     </div>
   
     <div class="dres" data-klub="Arsenal" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -421,7 +427,7 @@
           <img src="Slike/Arsenal/rdec brbez rokavov/b2dc9dc40cbe97655ee212dcab32e59a.webp" alt="Arsenal rdec brbez rokavov">
         <button class="next">&#10095;</button>
       </div>
-      <p>Arsenal rdec brbez rokavov</p>
+      <p>Arsenal red without sleeves</p>
     </div>
   
     <div class="dres" data-klub="Arsenal" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -452,7 +458,7 @@
           <img src="Slike/Arsenal/retro moder 95,96/d5472801e992839266e4abca532e04e6.webp" alt="Arsenal retro moder 95,96">
         <button class="next">&#10095;</button>
       </div>
-      <p>Arsenal retro moder 95,96</p>
+      <p>Arsenal retro blue 95,96</p>
     </div>
   
     <div class="dres" data-klub="Arsenal" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -466,7 +472,7 @@
           <img src="Slike/Arsenal/retro rdec 90,91/c8b302cd01100f238a4f3286f6a368a7.webp" alt="Arsenal retro rdec 90,91">
         <button class="next">&#10095;</button>
       </div>
-      <p>Arsenal retro rdec 90,91</p>
+      <p>Arsenal retro red 90,91</p>
     </div>
   
     <div class="dres" data-klub="Arsenal" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -483,7 +489,7 @@
           <img src="Slike/Arsenal/roza 22,23/9105c1092c3c517a891272d5efb3def7.webp" alt="Arsenal roza 22,23">
         <button class="next">&#10095;</button>
       </div>
-      <p>Arsenal roza 22,23</p>
+      <p>Arsenal pink 22,23</p>
     </div>
   
     <div class="dres" data-klub="Arsenal" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -492,7 +498,7 @@
   <img src="Slike/Arsenal/special kratka majca/3343d0463aa8e4c7aa67c834f5513411.webp" alt="Arsenal special kratka majca" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>Arsenal special kratka majca</p>
+      <p>Arsenal special </p>
     </div>
   
     <div class="dres" data-klub="Arsenal" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -507,7 +513,7 @@
           <img src="Slike/Arsenal/third 2526/b25ea39c206c1dc884d877d25781cfb3.webp" alt="Arsenal third 2526">
         <button class="next">&#10095;</button>
       </div>
-      <p>Arsenal third 2526</p>
+      <p>Arsenal third 25,26</p>
     </div>
   
     <div class="dres" data-klub="Arsenal" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -517,7 +523,7 @@
           <img src="Slike/Arsenal/trening brez rokavov/a8edceeec4063426bc93d5a849950395.webp" alt="Arsenal trening brez rokavov">
         <button class="next">&#10095;</button>
       </div>
-      <p>Arsenal trening brez rokavov</p>
+      <p>Arsenal training </p>
     </div>
   
     <div class="dres" data-klub="Arsenal" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -531,7 +537,7 @@
           <img src="Slike/Arsenal/trening dolge/d11309b318286c320f61925b1d9d7724.webp" alt="Arsenal trening dolge">
         <button class="next">&#10095;</button>
       </div>
-      <p>Arsenal trening dolge</p>
+      <p>Arsenal trening long sleeves</p>
     </div>
   
     <div class="dres" data-klub="Arsenal" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -546,7 +552,7 @@
           <img src="Slike/Arsenal/trening kratke/ef47314c38768712d69c29d8cb950ad6.webp" alt="Arsenal trening kratke">
         <button class="next">&#10095;</button>
       </div>
-      <p>Arsenal trening kratke</p>
+      <p>Arsenal training shorts</p>
     </div>
   
     <div class="dres" data-klub="Atletico Madrid" data-firma="Nike" data-leto="2025" data-liga="La Liga">
@@ -602,7 +608,7 @@
           <img src="Slike/Atletico Madrid/otroški away 24,25/e6dc36fff6bfb47916c868f3498fa203.webp" alt="Atletico Madrid otroški away 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>Atletico Madrid otroški away 24,25</p>
+      <p>Atletico Madrid kids away 24,25</p>
     </div>
   
     <div class="dres" data-klub="Atletico Madrid" data-firma="Nike" data-leto="2025" data-liga="La Liga">
@@ -654,7 +660,7 @@
           <img src="Slike/Atletico Madrid/trening modra/e438051257514a38f9ca2f801cbd1d8e.webp" alt="Atletico Madrid trening modra">
         <button class="next">&#10095;</button>
       </div>
-      <p>Atletico Madrid trening modra</p>
+      <p>Atletico Madrid training blue</p>
     </div>
   
     <div class="dres" data-klub="Atletico Madrid" data-firma="Nike" data-leto="2025" data-liga="La Liga">
@@ -664,7 +670,7 @@
           <img src="Slike/Atletico Madrid/trening rdeca/4249ca3510670a058af314f947d3e614.webp" alt="Atletico Madrid trening rdeca">
         <button class="next">&#10095;</button>
       </div>
-      <p>Atletico Madrid trening rdeca</p>
+      <p>Atletico Madrid training red</p>
     </div>
   
     <div class="dres" data-klub="Atletico Madrid" data-firma="Nike" data-leto="2025" data-liga="La Liga">
@@ -679,10 +685,10 @@
           <img src="Slike/Atletico Madrid/trening roza/d5afd569b83599f2456b04c3732ebc03.webp" alt="Atletico Madrid trening roza">
         <button class="next">&#10095;</button>
       </div>
-      <p>Atletico Madrid trening roza</p>
+      <p>Atletico Madrid training pink</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/10.11 home kidare/50ed6b4756feb5ef8d2adfb6265c8a1f.webp" alt="barca 10.11 home kidare" class="active">
@@ -696,10 +702,10 @@
           <img src="Slike/barca/10.11 home kidare/de4b99d1fe9f447caac3cd00a8ba12d7.webp" alt="barca 10.11 home kidare">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca 10.11 home kidare</p>
+      <p>Barcelona 10,11 home kids</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/11.12 away/4ee7e793c615a34a9a5339704e6ba857.webp" alt="barca 11.12 away" class="active">
@@ -712,10 +718,10 @@
           <img src="Slike/barca/11.12 away/b7fee169d940bebc686b638cbc104d69.webp" alt="barca 11.12 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca 11.12 away</p>
+      <p>Barcelona 11,12 away</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/17.18 third/05cc2a544e686deec77642f5352b1a64.webp" alt="barca 17.18 third" class="active">
@@ -728,10 +734,10 @@
           <img src="Slike/barca/17.18 third/f8cf25b90ca48a0f5d7207cd44a396b0.webp" alt="barca 17.18 third">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca 17.18 third</p>
+      <p>Barcelona 17,18 third</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/21.22 away/1b07bc0069b48c9dc96d7209e199e943.webp" alt="barca 21.22 away" class="active">
@@ -744,10 +750,10 @@
           <img src="Slike/barca/21.22 away/ec4a85527eed893834cb94beaf26a747.webp" alt="barca 21.22 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca 21.22 away</p>
+      <p>Barcelona 21,22 away</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/21.22 trening/099ce5ed25e06f15c794639756d55b62.webp" alt="barca 21.22 trening" class="active">
@@ -757,10 +763,10 @@
           <img src="Slike/barca/21.22 trening/d17d2dba729d5bff28f3072f0c717362.webp" alt="barca 21.22 trening">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca 21.22 trening</p>
+      <p>Barcelona 21,22 trening</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/23.24 away/05707191f804499e71375b64c259e323.webp" alt="barca 23.24 away" class="active">
@@ -773,10 +779,10 @@
           <img src="Slike/barca/23.24 away/bd739ec0b77e104714d27dd93062d8c5.webp" alt="barca 23.24 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca 23.24 away</p>
+      <p>Barcelona 23,24 away</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/23.24 special edition black/1ce095b45ae0f8b4b38b6ef3dcbf73f6.webp" alt="barca 23.24 special edition black" class="active">
@@ -791,10 +797,10 @@
           <img src="Slike/barca/23.24 special edition black/bb426a9f527778cf0e86911441a4c4d9.webp" alt="barca 23.24 special edition black">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca 23.24 special edition black</p>
+      <p>Barcelona 23,24 special edition black</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/24.25 special crno belo/15b193080132d1cdf8f92516b4229007.webp" alt="barca 24.25 special crno belo" class="active">
@@ -804,10 +810,10 @@
           <img src="Slike/barca/24.25 special crno belo/c56ec723315c0066c32e9f8c77ca6445.webp" alt="barca 24.25 special crno belo">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca 24.25 special crno belo</p>
+      <p>Barcelona 24,25 special  B%W</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/away 24.25/24020a1be83ba564be9da5354e38988a_1080x.webp" alt="barca away 24.25" class="active">
@@ -820,10 +826,10 @@
           <img src="Slike/barca/away 24.25/ac07bc0f5276c600a80a996d9bb1e433_1080x.webp" alt="barca away 24.25">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca away 24.25</p>
+      <p>Barcelona away 24,25</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/away 24.25 kidare/0557df6a7d78defbe4874ffece0bf1a2.webp" alt="barca away 24.25 kidare" class="active">
@@ -835,10 +841,10 @@
           <img src="Slike/barca/away 24.25 kidare/97679d7d9289f91edfca7f96b1eedfd9.webp" alt="barca away 24.25 kidare">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca away 24.25 kidare</p>
+      <p>Barcelona away 24,25 kidare</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/home 08.09 liga sampiona/28aad234c08371a41c0d6c045f554fbc.webp" alt="barca home 08.09 liga sampiona" class="active">
@@ -855,10 +861,10 @@
           <img src="Slike/barca/home 08.09 liga sampiona/e10121ed3f63f49e018f2aff1c0e8bc1.webp" alt="barca home 08.09 liga sampiona">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca home 08.09 liga sampiona</p>
+      <p>Barcelona home 08,09 UCL</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/HOME 14.15/2ac58353049c8fa994257bca35679662.webp" alt="barca HOME 14.15" class="active">
@@ -873,10 +879,10 @@
           <img src="Slike/barca/HOME 14.15/e410392995b24b132c96e4df9db31035.webp" alt="barca HOME 14.15">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca HOME 14.15</p>
+      <p>Barcelona home 14,15</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/home 15.16/18ae01676f03c7b2a8f12804b4ae381f.webp" alt="barca home 15.16" class="active">
@@ -889,10 +895,10 @@
           <img src="Slike/barca/home 15.16/e7ca6ff69f18042a836ea8d28039dcaa.webp" alt="barca home 15.16">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca home 15.16</p>
+      <p>Barcelona home 15,16</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/home 24.25/7aee23f335e9a7a152c6b1ae05c35504.webp" alt="barca home 24.25" class="active">
@@ -904,10 +910,10 @@
           <img src="Slike/barca/home 24.25/bdec76b93267378884a34c5ee551c255.webp" alt="barca home 24.25">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca home 24.25</p>
+      <p>Barcelona home 24,25</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/third 24.25/0b069fdecd08d6c2d6cfcb372b8f032f.webp" alt="barca third 24.25" class="active">
@@ -917,19 +923,19 @@
           <img src="Slike/barca/third 24.25/e22d949abf980c1b8c06309a00c4c2ab.webp" alt="barca third 24.25">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca third 24.25</p>
+      <p>Barcelona third 24,25</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/za stoke/1861df350a12212a3b840478c1fec5fa.webp" alt="barca za stoke" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca za stoke</p>
+      <p>Barcelona special</p>
     </div>
   
-    <div class="dres" data-klub="barca" data-firma="Nike" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Barcelona" data-firma="Nike" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/barca/zagrijavanje 24.25/22ff5bb5d9b084251732b0e4c1ff79c8.webp" alt="barca zagrijavanje 24.25" class="active">
@@ -937,7 +943,7 @@
           <img src="Slike/barca/zagrijavanje 24.25/c826ee85d58ccd5f13efe2690f1eded2.webp" alt="barca zagrijavanje 24.25">
         <button class="next">&#10095;</button>
       </div>
-      <p>barca zagrijavanje 24.25</p>
+      <p>Barcelona training 24,25</p>
     </div>
   
     <div class="dres" data-klub="Bayern" data-firma="Adidas" data-leto="2025" data-liga="Bundesliga">
@@ -952,7 +958,7 @@
           <img src="Slike/Bayern/anniversary edition bel/c6b87ca957b0ad2ae1a8eb8a6d5d5475.webp" alt="Bayern anniversary edition bel">
         <button class="next">&#10095;</button>
       </div>
-      <p>Bayern anniversary edition bel</p>
+      <p>Bayern anniversary edition white</p>
     </div>
   
     <div class="dres" data-klub="Bayern" data-firma="Adidas" data-leto="2025" data-liga="Bundesliga">
@@ -961,7 +967,7 @@
   <img src="Slike/Bayern/anniversary edition crn/6724b473d0e9ea373671081481b38323.webp" alt="Bayern anniversary edition crn" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>Bayern anniversary edition crn</p>
+      <p>Bayern anniversary edition black</p>
     </div>
   
     <div class="dres" data-klub="Bayern" data-firma="Adidas" data-leto="2025" data-liga="Bundesliga">
@@ -976,7 +982,7 @@
           <img src="Slike/Bayern/anniversary edition rdeč/ab9624a6da1f16dcd62c4f37f844ecc6.webp" alt="Bayern anniversary edition rdeč">
         <button class="next">&#10095;</button>
       </div>
-      <p>Bayern anniversary edition rdeč</p>
+      <p>Bayern anniversary edition red</p>
     </div>
   
     <div class="dres" data-klub="Bayern" data-firma="Adidas" data-leto="2025" data-liga="Bundesliga">
@@ -1053,7 +1059,7 @@
   <img src="Slike/Bayern/otroški anniversary/02a36e2b5360d9095cb227c2801cc715.webp" alt="Bayern otroški anniversary" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>Bayern otroški anniversary</p>
+      <p>Bayern kids anniversary</p>
     </div>
   
     <div class="dres" data-klub="Bayern" data-firma="Adidas" data-leto="2025" data-liga="Bundesliga">
@@ -1065,7 +1071,7 @@
           <img src="Slike/Bayern/otroški home 24,25/2d02682d70f6500ddf608e94a3175c23.webp" alt="Bayern otroški home 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>Bayern otroški home 24,25</p>
+      <p>Bayern kids home 24,25</p>
     </div>
   
     <div class="dres" data-klub="Bayern" data-firma="Adidas" data-leto="2025" data-liga="Bundesliga">
@@ -1141,7 +1147,7 @@
           <img src="Slike/Bayern/treinng brez rokavov/3dc1ce6077f0cb0130ec176b52c9483d.webp" alt="Bayern treinng brez rokavov">
         <button class="next">&#10095;</button>
       </div>
-      <p>Bayern treinng brez rokavov</p>
+      <p>Bayern training without sleeves</p>
     </div>
   
     <div class="dres" data-klub="Bayern" data-firma="Adidas" data-leto="2025" data-liga="Bundesliga">
@@ -1152,7 +1158,7 @@
           <img src="Slike/Bayern/trening dolge bela/9aceebefb3bec0dce63343e58507cb09.webp" alt="Bayern trening dolge bela">
         <button class="next">&#10095;</button>
       </div>
-      <p>Bayern trening dolge bela</p>
+      <p>Bayern trening long white</p>
     </div>
   
     <div class="dres" data-klub="Bayern" data-firma="Adidas" data-leto="2025" data-liga="Bundesliga">
@@ -1166,7 +1172,7 @@
           <img src="Slike/Bayern/trening dolge rdeča/dde351ba57a9e3cc4bfd401df2287ab2.webp" alt="Bayern trening dolge rdeča">
         <button class="next">&#10095;</button>
       </div>
-      <p>Bayern trening dolge rdeča</p>
+      <p>Bayern training long red</p>
     </div>
   
     <div class="dres" data-klub="Bayern" data-firma="Adidas" data-leto="2025" data-liga="Bundesliga">
@@ -1176,7 +1182,7 @@
           <img src="Slike/Bayern/trening kratka majca/a4fd056a204a040512337627ff10ca4c.webp" alt="Bayern trening kratka majca">
         <button class="next">&#10095;</button>
       </div>
-      <p>Bayern trening kratka majca</p>
+      <p>Bayern training shirt</p>
     </div>
   
     <div class="dres" data-klub="Benfica" data-firma="Adidas" data-leto="2025" data-liga="Liga Portugal">
@@ -1185,7 +1191,7 @@
   <img src="Slike/Benfica/beli 25,26/2e1dd8f82e2f2ea78a383cc32d63bab4.webp" alt="Benfica beli 25,26" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>Benfica beli 25,26</p>
+      <p>Benfica white 25,26</p>
     </div>
   
     <div class="dres" data-klub="Benfica" data-firma="Adidas" data-leto="2025" data-liga="Liga Portugal">
@@ -1198,7 +1204,7 @@
           <img src="Slike/Benfica/crn 24,25/c485cec32755de7a7537c9ef36205fc0.webp" alt="Benfica crn 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>Benfica crn 24,25</p>
+      <p>Benfica black 24,25</p>
     </div>
   
     <div class="dres" data-klub="Benfica" data-firma="Adidas" data-leto="2025" data-liga="Liga Portugal">
@@ -1211,7 +1217,7 @@
           <img src="Slike/Benfica/crna trening/b7b90edc82785408e8911457488bc4c9.webp" alt="Benfica crna trening">
         <button class="next">&#10095;</button>
       </div>
-      <p>Benfica crna trening</p>
+      <p>Benfica black training</p>
     </div>
   
     <div class="dres" data-klub="Benfica" data-firma="Adidas" data-leto="2025" data-liga="Liga Portugal">
@@ -1237,7 +1243,7 @@
           <img src="Slike/Benfica/otroški 24,25/c4259834d39118efe0095d0c51393d28.webp" alt="Benfica otroški 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>Benfica otroški 24,25</p>
+      <p>Benfica kids 24,25</p>
     </div>
   
     <div class="dres" data-klub="Benfica" data-firma="Adidas" data-leto="2025" data-liga="Liga Portugal">
@@ -1261,7 +1267,7 @@
       <p>Benfica special 25,26</p>
     </div>
   
-    <div class="dres" data-klub="brasil" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Brazil" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/brasil/04 home/38af84c241e5c4cc1f557b83a9ecaab9.webp" alt="brasil 04 home" class="active">
@@ -1269,7 +1275,7 @@
           <img src="Slike/brasil/04 home/69652d27b1e574a0bc18afd30433a165.webp" alt="brasil 04 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>brasil 04 home</p>
+      <p>Brazil 2004 home</p>
     </div>
   
     <div class="dres" data-klub="brasil" data-firma="Nike" data-leto="2025" data-liga="National Team">
@@ -1285,10 +1291,10 @@
           <img src="Slike/brasil/18.19 away/c71c407ebc942c636e53c89d431ea9a2_1080x.webp" alt="brasil 18.19 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>brasil 18.19 away</p>
+      <p>Brazil 18,19 away</p>
     </div>
   
-    <div class="dres" data-klub="brasil" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Brazil" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/brasil/20 away/3ab53d0d633e4a66cbb914f64e726cd2.webp" alt="brasil 20 away" class="active">
@@ -1301,10 +1307,10 @@
           <img src="Slike/brasil/20 away/f37a0671af06fef92673eea1e697f1ca.webp" alt="brasil 20 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>brasil 20 away</p>
+      <p>Brazil 2020 away</p>
     </div>
   
-    <div class="dres" data-klub="brasil" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Brazil" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/brasil/20 home/480fca0856fad0158044b612b45780e1.webp" alt="brasil 20 home" class="active">
@@ -1316,10 +1322,10 @@
           <img src="Slike/brasil/20 home/f6d8e3406707ad11ea35f18cb5e6242e.webp" alt="brasil 20 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>brasil 20 home</p>
+      <p>Brazil 2020 home</p>
     </div>
   
-    <div class="dres" data-klub="brasil" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Brazil" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/brasil/2002 home/101877866b356fc0c706635fe10bd5a2.webp" alt="brasil 2002 home" class="active">
@@ -1331,10 +1337,10 @@
           <img src="Slike/brasil/2002 home/887fecb603a2201895c3a1862a0553af.webp" alt="brasil 2002 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>brasil 2002 home</p>
+      <p>Brazil 2002 home</p>
     </div>
   
-    <div class="dres" data-klub="brasil" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Brazil" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/brasil/22 special crni/0228ffb1ffd77f5db1baa9c089d95b89.webp" alt="brasil 22 special crni" class="active">
@@ -1346,20 +1352,20 @@
           <img src="Slike/brasil/22 special crni/85f50b3203323dff6c1800eaa374a05e.webp" alt="brasil 22 special crni">
         <button class="next">&#10095;</button>
       </div>
-      <p>brasil 22 special crni</p>
+      <p>Brazil 22 special black</p>
     </div>
   
-    <div class="dres" data-klub="brasil" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Brazil" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/brasil/home 24/403e3cc25e9f1c9758379bd9bf4c196c.webp" alt="brasil home 24" class="active">
           <img src="Slike/brasil/home 24/a9fc35760214299432db807990cd8885.webp" alt="brasil home 24">
         <button class="next">&#10095;</button>
       </div>
-      <p>brasil home 24</p>
+      <p>Brazil home 2024</p>
     </div>
   
-    <div class="dres" data-klub="brasil" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Brazil" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/brasil/retro 98 away/1267f48b3b8ab1dd52bc462f4fc5dc70.webp" alt="brasil retro 98 away" class="active">
@@ -1370,10 +1376,10 @@
           <img src="Slike/brasil/retro 98 away/eb0585f71dc23aedab9f2fcdd2b573b3.webp" alt="brasil retro 98 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>brasil retro 98 away</p>
+      <p>Brazil retro 1998 away</p>
     </div>
   
-    <div class="dres" data-klub="brasil" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Brazil" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/brasil/retro 98 home/313d9369d0d5d9b051ef786f52b70d2d.webp" alt="brasil retro 98 home" class="active">
@@ -1384,7 +1390,7 @@
           <img src="Slike/brasil/retro 98 home/e8d86737be976d1f7b4444b76933602c.webp" alt="brasil retro 98 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>brasil retro 98 home</p>
+      <p>Brazil retro 1998 home</p>
     </div>
   
     <div class="dres" data-klub="Chelsea" data-firma="Nike" data-leto="2025" data-liga="Premier League">
@@ -1440,7 +1446,7 @@
           <img src="Slike/Chelsea/otroški home 24,25/9dab47e480927adb983acd7a37c69744.webp" alt="Chelsea otroški home 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>Chelsea otroški home 24,25</p>
+      <p>Chelsea kids home 24,25</p>
     </div>
   
     <div class="dres" data-klub="Chelsea" data-firma="Nike" data-leto="2025" data-liga="Premier League">
@@ -1449,7 +1455,7 @@
   <img src="Slike/Chelsea/otroški third 24,25/4fb7fff1648cf7d7b73044239ffb672d.webp" alt="Chelsea otroški third 24,25" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>Chelsea otroški third 24,25</p>
+      <p>Chelsea kids third 24,25</p>
     </div>
   
     <div class="dres" data-klub="Chelsea" data-firma="Nike" data-leto="2025" data-liga="Premier League">
@@ -1478,7 +1484,7 @@
           <img src="Slike/Chelsea/retro cl 08,09/b4d5af166397555b212daea71bab3e79_1080x.webp" alt="Chelsea retro cl 08,09">
         <button class="next">&#10095;</button>
       </div>
-      <p>Chelsea retro cl 08,09</p>
+      <p>Chelsea retro UCL 08,09</p>
     </div>
   
     <div class="dres" data-klub="Chelsea" data-firma="Nike" data-leto="2025" data-liga="Premier League">
@@ -1533,7 +1539,7 @@
           <img src="Slike/Chelsea/trenign brez rokavov crne/a755368465fab351027b8e7271c98343.webp" alt="Chelsea trenign brez rokavov crne">
         <button class="next">&#10095;</button>
       </div>
-      <p>Chelsea trenign brez rokavov crne</p>
+      <p>Chelsea training black without sleeves</p>
     </div>
   
     <div class="dres" data-klub="Chelsea" data-firma="Nike" data-leto="2025" data-liga="Premier League">
@@ -1543,7 +1549,7 @@
           <img src="Slike/Chelsea/trening brez rokavov bele/e46d1fadd5d96ca35f485f0c0da565ee.webp" alt="Chelsea trening brez rokavov bele">
         <button class="next">&#10095;</button>
       </div>
-      <p>Chelsea trening brez rokavov bele</p>
+      <p>Chelsea training white without sleeves</p>
     </div>
   
     <div class="dres" data-klub="Chelsea" data-firma="Nike" data-leto="2025" data-liga="Premier League">
@@ -1558,7 +1564,7 @@
           <img src="Slike/Chelsea/trening dolge crne/e9531bd42dd62abbf05f56cf24b874a4.webp" alt="Chelsea trening dolge crne">
         <button class="next">&#10095;</button>
       </div>
-      <p>Chelsea trening dolge crne</p>
+      <p>Chelsea training long sleeves black</p>
     </div>
   
     <div class="dres" data-klub="City" data-firma="Puma" data-leto="2025" data-liga="Premier League">
@@ -1587,7 +1593,7 @@
           <img src="Slike/City/bela majca 23,24/d6566f61935c05d185c1b14a971601cc.webp" alt="City bela majca 23,24">
         <button class="next">&#10095;</button>
       </div>
-      <p>City bela majca 23,24</p>
+      <p>City white 23,24</p>
     </div>
   
     <div class="dres" data-klub="City" data-firma="Puma" data-leto="2025" data-liga="Premier League">
@@ -1603,7 +1609,7 @@
           <img src="Slike/City/beli 23,24/e6dcd10d0a26681d781f1de54a4249a2.webp" alt="City beli 23,24">
         <button class="next">&#10095;</button>
       </div>
-      <p>City beli 23,24</p>
+      <p>City white 2 23,24</p>
     </div>
   
     <div class="dres" data-klub="City" data-firma="Puma" data-leto="2025" data-liga="Premier League">
@@ -1617,7 +1623,7 @@
           <img src="Slike/City/dolga modra trening/de12b4a58585a173261ba68fe8a200f7.webp" alt="City dolga modra trening">
         <button class="next">&#10095;</button>
       </div>
-      <p>City dolga modra trening</p>
+      <p>City training long sleeves blue</p>
     </div>
   
     <div class="dres" data-klub="City" data-firma="Puma" data-leto="2025" data-liga="Premier League">
@@ -1628,7 +1634,7 @@
           <img src="Slike/City/dolge crne trening/d9d5a73392b27f9bc08eff1faf17c4bf.webp" alt="City dolge crne trening">
         <button class="next">&#10095;</button>
       </div>
-      <p>City dolge crne trening</p>
+      <p>City training long sleeves black</p>
     </div>
   
     <div class="dres" data-klub="City" data-firma="Puma" data-leto="2025" data-liga="Premier League">
@@ -1675,7 +1681,7 @@
           <img src="Slike/City/ogrevanje 23,24/c167c8218e02ee601dfe6d2e5fc67071.webp" alt="City ogrevanje 23,24">
         <button class="next">&#10095;</button>
       </div>
-      <p>City ogrevanje 23,24</p>
+      <p>City training 23,24</p>
     </div>
   
     <div class="dres" data-klub="City" data-firma="Puma" data-leto="2025" data-liga="Premier League">
@@ -1693,7 +1699,7 @@
   <img src="Slike/City/otroški special/180ceaeb34bafab4f7200cb3d54dd07b.webp" alt="City otroški special" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>City otroški special</p>
+      <p>City kids special</p>
     </div>
   
     <div class="dres" data-klub="City" data-firma="Puma" data-leto="2025" data-liga="Premier League">
@@ -1706,7 +1712,7 @@
           <img src="Slike/City/otroški temno rdeč 24,25/b8999770c5c27e89effab608a6134a08.webp" alt="City otroški temno rdeč 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>City otroški temno rdeč 24,25</p>
+      <p>City kids red 24,25</p>
     </div>
   
     <div class="dres" data-klub="City" data-firma="Puma" data-leto="2025" data-liga="Premier League">
@@ -1766,7 +1772,7 @@
           <img src="Slike/City/special beli 24,25/e854f8098a7480817f7c65e3b1b82db4.webp" alt="City special beli 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>City special beli 24,25</p>
+      <p>City special white 24,25</p>
     </div>
   
     <div class="dres" data-klub="City" data-firma="Puma" data-leto="2025" data-liga="Premier League">
@@ -1775,7 +1781,7 @@
   <img src="Slike/City/special temno modra/86a8b001c31a8868e92dd898b52a2bc1.webp" alt="City special temno modra" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>City special temno modra</p>
+      <p>City special blue</p>
     </div>
   
     <div class="dres" data-klub="City" data-firma="Puma" data-leto="2025" data-liga="Premier League">
@@ -1810,7 +1816,7 @@
       <p>City third 24,25</p>
     </div>
   
-    <div class="dres" data-klub="england" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="England" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/england/22 away/08a888a93a33e89c0a894cdfd0374cb8.webp" alt="england 22 away" class="active">
@@ -1824,20 +1830,20 @@
           <img src="Slike/england/22 away/f6902c2e263d5567d050fc79591488d4.webp" alt="england 22 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>england 22 away</p>
+      <p>England 22 away</p>
     </div>
   
-    <div class="dres" data-klub="england" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="England" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/england/22 home/28495e47f2c3d3e67783d0d6ef428eb8.webp" alt="england 22 home" class="active">
           <img src="Slike/england/22 home/64f256a86bfddd8668bffb7533f399e5.webp" alt="england 22 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>england 22 home</p>
+      <p>England 22 home</p>
     </div>
   
-    <div class="dres" data-klub="francija" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="France" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/francija/24.25 home/0254c4c6b7b3bea7d9a7e4e013e070d1.webp" alt="francija 24.25 home" class="active">
@@ -1851,7 +1857,7 @@
           <img src="Slike/francija/24.25 home/cd2bec8f3a093d955fc6be564cbee3db.webp" alt="francija 24.25 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>francija 24.25 home</p>
+      <p>France 24,25 home</p>
     </div>
   
     <div class="dres" data-klub="Inter Milan" data-firma="Nike" data-leto="2025" data-liga="Serie A">
@@ -1895,7 +1901,7 @@
   <img src="Slike/Inter Milan/otroški away 24,25/314ecb7696ac4a0a10fd7c0eac541e42.webp" alt="Inter Milan otroški away 24,25" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>Inter Milan otroški away 24,25</p>
+      <p>Inter Milan kids away 24,25</p>
     </div>
   
     <div class="dres" data-klub="Inter Milan" data-firma="Nike" data-leto="2025" data-liga="Serie A">
@@ -1921,7 +1927,7 @@
           <img src="Slike/Inter Milan/retro 09,10 champions league/a8560631ce303d3469e6e9df2a032694.webp" alt="Inter Milan retro 09,10 champions league">
         <button class="next">&#10095;</button>
       </div>
-      <p>Inter Milan retro 09,10 champions league</p>
+      <p>Inter Milan retro 09,10 UCL</p>
     </div>
   
     <div class="dres" data-klub="Inter Milan" data-firma="Nike" data-leto="2025" data-liga="Serie A">
@@ -1958,7 +1964,7 @@
           <img src="Slike/Inter Milan/trening brez rokavov 23,24 moder/544f0fd869fd95f4f823d5661b81fc0e.webp" alt="Inter Milan trening brez rokavov 23,24 moder">
         <button class="next">&#10095;</button>
       </div>
-      <p>Inter Milan trening brez rokavov 23,24 moder</p>
+      <p>Inter Milan training without sleeves 23,24 blue</p>
     </div>
   
     <div class="dres" data-klub="Inter Milan" data-firma="Nike" data-leto="2025" data-liga="Serie A">
@@ -1969,10 +1975,10 @@
           <img src="Slike/Inter Milan/trening dolge 24,25/70dd9e72c68655bf557ca89a848b4a10.webp" alt="Inter Milan trening dolge 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>Inter Milan trening dolge 24,25</p>
+      <p>Inter Milan trening long 24,25</p>
     </div>
   
-    <div class="dres" data-klub="italija" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Italy" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/italija/22 home/05c2cd00b3e4e671139c0fc42158a8f8.webp" alt="italija 22 home" class="active">
@@ -1987,10 +1993,10 @@
           <img src="Slike/italija/22 home/f14676d374ebc3784e7224b3b4582c75.webp" alt="italija 22 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>italija 22 home</p>
+      <p>Italy 22 home</p>
     </div>
   
-    <div class="dres" data-klub="italija" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Italy" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/italija/24 away/13d4bea8ddc3183ec613de857b78878d_1080x.webp" alt="italija 24 away" class="active">
@@ -2005,10 +2011,10 @@
           <img src="Slike/italija/24 away/e8ad384dd564ba6190a68740c3de76b7_1080x.webp" alt="italija 24 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>italija 24 away</p>
+      <p>Italy 24 away</p>
     </div>
   
-    <div class="dres" data-klub="japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/japan/20 home/3bac26a0dd6d67eb44c8279dc0185041.webp" alt="japan 20 home" class="active">
@@ -2018,10 +2024,10 @@
           <img src="Slike/japan/20 home/a2d88b42f9b76b559d85f926f8188886.webp" alt="japan 20 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>japan 20 home</p>
+      <p>Japan 20 home</p>
     </div>
   
-    <div class="dres" data-klub="japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/japan/22 home/040592eaed9682e94bdcd9ab549131ca.webp" alt="japan 22 home" class="active">
@@ -2034,10 +2040,10 @@
           <img src="Slike/japan/22 home/932e89bb3556dc0416d4307faf33bc3a.webp" alt="japan 22 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>japan 22 home</p>
+      <p>Japan 22 home</p>
     </div>
   
-    <div class="dres" data-klub="japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/japan/23 tokyo special red/254f209e5d522c1c85523795b82106f3.webp" alt="japan 23 tokyo special red" class="active">
@@ -2049,10 +2055,10 @@
           <img src="Slike/japan/23 tokyo special red/d07ce7f68badd317147d294b1d6e1439.webp" alt="japan 23 tokyo special red">
         <button class="next">&#10095;</button>
       </div>
-      <p>japan 23 tokyo special red</p>
+      <p>Japan 23 tokyo special red</p>
     </div>
   
-    <div class="dres" data-klub="japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/japan/24 away/2e767bbff5d03349d31acbcf56657a1b.webp" alt="japan 24 away" class="active">
@@ -2063,10 +2069,10 @@
           <img src="Slike/japan/24 away/d1d7900dd4f9c87b1e49d2fc82e60797.webp" alt="japan 24 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>japan 24 away</p>
+      <p>Japan 24 away</p>
     </div>
   
-    <div class="dres" data-klub="japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/japan/24 home/499b86d824ed2ce51f7c5b3014feef14.webp" alt="japan 24 home" class="active">
@@ -2075,10 +2081,10 @@
           <img src="Slike/japan/24 home/9d6ec225982e79b839981f0f282b4f05.webp" alt="japan 24 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>japan 24 home</p>
+      <p>Japan 24 home</p>
     </div>
   
-    <div class="dres" data-klub="japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/japan/24 kidare away/1acfd062734eaebfbbe1eab3d041c8c6.webp" alt="japan 24 kidare away" class="active">
@@ -2088,10 +2094,10 @@
           <img src="Slike/japan/24 kidare away/8f95b1c0aa471060c5947e4a8800cd15.webp" alt="japan 24 kidare away">
         <button class="next">&#10095;</button>
       </div>
-      <p>japan 24 kidare away</p>
+      <p>Japan 24 kids away</p>
     </div>
   
-    <div class="dres" data-klub="japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/japan/24 kidare home/066cc3d67d72808ac91fce7b3163b8b0.webp" alt="japan 24 kidare home" class="active">
@@ -2101,19 +2107,19 @@
           <img src="Slike/japan/24 kidare home/6bdbb4deda614674af119144038c4ccf.webp" alt="japan 24 kidare home">
         <button class="next">&#10095;</button>
       </div>
-      <p>japan 24 kidare home</p>
+      <p>Japan 24 kids home</p>
     </div>
   
-    <div class="dres" data-klub="japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/japan/24 special dragon warrior/1a373e0d10a6773e7262614ab1039990.webp" alt="japan 24 special dragon warrior" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>japan 24 special dragon warrior</p>
+      <p>Japan 24 special dragon warrior</p>
     </div>
   
-    <div class="dres" data-klub="japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/japan/24.25 special valovi/1181782043bbc9f3e78c15f0d30c184a.webp" alt="japan 24.25 special valovi" class="active">
@@ -2122,10 +2128,10 @@
           <img src="Slike/japan/24.25 special valovi/c259cd0a2f443180240797b041596667.webp" alt="japan 24.25 special valovi">
         <button class="next">&#10095;</button>
       </div>
-      <p>japan 24.25 special valovi</p>
+      <p>Japan 24,25 special waves</p>
     </div>
   
-    <div class="dres" data-klub="japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/japan/24.25 wawes/4bc81812fb2d4a465cbbd583107f3fa0.webp" alt="japan 24.25 wawes" class="active">
@@ -2136,20 +2142,20 @@
           <img src="Slike/japan/24.25 wawes/eb727c5733beee30115aa3e607f578a5.webp" alt="japan 24.25 wawes">
         <button class="next">&#10095;</button>
       </div>
-      <p>japan 24.25 wawes</p>
+      <p>Japan 24,25 wawes</p>
     </div>
   
-    <div class="dres" data-klub="japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Japan" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/japan/25 trening/2460db0a95b6228d6606901dbca64c74.webp" alt="japan 25 trening" class="active">
           <img src="Slike/japan/25 trening/7f3ce6d646d313fea17dc6c20547251c.webp" alt="japan 25 trening">
         <button class="next">&#10095;</button>
       </div>
-      <p>japan 25 trening</p>
+      <p>Japan 25 training</p>
     </div>
   
-    <div class="dres" data-klub="juve" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
+    <div class="dres" data-klub="Juventus" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/juve/19.20 home/0a6bc043cf4fdf6c8fee8a011b59b586.webp" alt="juve 19.20 home" class="active">
@@ -2162,19 +2168,19 @@
           <img src="Slike/juve/19.20 home/f108f9b1b1a98c07c6cd15fe99d543b0.webp" alt="juve 19.20 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>juve 19.20 home</p>
+      <p>Juventus 19,20 home</p>
     </div>
   
-    <div class="dres" data-klub="juve" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
+    <div class="dres" data-klub="Juventus" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/juve/20,21 home/039e9b3c2bb97185830787f8c726786f.webp" alt="juve 20,21 home" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>juve 20,21 home</p>
+      <p>Juventus 20,21 home</p>
     </div>
   
-    <div class="dres" data-klub="juve" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
+    <div class="dres" data-klub="Juventus" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/juve/21.22 home/2bbe1a7519fb93da866bf1c569ba1bae.webp" alt="juve 21.22 home" class="active">
@@ -2185,10 +2191,10 @@
           <img src="Slike/juve/21.22 home/f4dfa46d3b996c10ecdaaea703c2c032.webp" alt="juve 21.22 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>juve 21.22 home</p>
+      <p>Juventus 21,22 home</p>
     </div>
   
-    <div class="dres" data-klub="juve" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
+    <div class="dres" data-klub="Juventus" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/juve/22.23 home/15520bfe5ebaf54150120c4335d335cc.webp" alt="juve 22.23 home" class="active">
@@ -2202,10 +2208,10 @@
           <img src="Slike/juve/22.23 home/d1b1d86ae43ed5fe8b5f756612535bab.webp" alt="juve 22.23 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>juve 22.23 home</p>
+      <p>Juventus 22,23 home</p>
     </div>
   
-    <div class="dres" data-klub="juve" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
+    <div class="dres" data-klub="Juventus" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/juve/23.24 home/4852b73ee028e4c35c7ad099872c44ff.webp" alt="juve 23.24 home" class="active">
@@ -2218,10 +2224,10 @@
           <img src="Slike/juve/23.24 home/dae14f7c3caa8c322f4718d19554ff44.webp" alt="juve 23.24 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>juve 23.24 home</p>
+      <p>Juventus 23,24 home</p>
     </div>
   
-    <div class="dres" data-klub="juve" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
+    <div class="dres" data-klub="Juventus" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/juve/24.25 kids away/118a70d02609281581e165a58eda4e37.webp" alt="juve 24.25 kids away" class="active">
@@ -2230,10 +2236,10 @@
           <img src="Slike/juve/24.25 kids away/bc1f64fc288d3003a6bf98c918ac393c.webp" alt="juve 24.25 kids away">
         <button class="next">&#10095;</button>
       </div>
-      <p>juve 24.25 kids away</p>
+      <p>Juventus 24.25 kids away</p>
     </div>
   
-    <div class="dres" data-klub="juve" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
+    <div class="dres" data-klub="Juventus" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/juve/95.96 away/00e3dbcb9fbed03f0b9cc520ab722191.webp" alt="juve 95.96 away" class="active">
@@ -2245,10 +2251,10 @@
           <img src="Slike/juve/95.96 away/ab95846ae24de62fdabd25693f43b776.webp" alt="juve 95.96 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>juve 95.96 away</p>
+      <p>Juventus 95.96 away</p>
     </div>
   
-    <div class="dres" data-klub="juve" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
+    <div class="dres" data-klub="Juventus" data-firma="Adidas" data-leto="2025" data-liga="Serie A">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/juve/97.98 home/20089cd679a052090aa552fb0bfd1257.webp" alt="juve 97.98 home" class="active">
@@ -2260,7 +2266,7 @@
           <img src="Slike/juve/97.98 home/d8d8c4fe4f8ca4fc89a1ef49fe618fa6.webp" alt="juve 97.98 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>juve 97.98 home</p>
+      <p>Juventus 97,98 home</p>
     </div>
   
     <div class="dres" data-klub="Liverpool" data-firma="Nike" data-leto="2025" data-liga="Premier League">
@@ -2322,7 +2328,7 @@
   <img src="Slike/Liverpool/otroški away 24,25/9b9386c7d47e32d324ebe6eb2f6f15e1.webp" alt="Liverpool otroški away 24,25" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>Liverpool otroški away 24,25</p>
+      <p>Liverpool kids away 24,25</p>
     </div>
   
     <div class="dres" data-klub="Liverpool" data-firma="Nike" data-leto="2025" data-liga="Premier League">
@@ -2333,7 +2339,7 @@
           <img src="Slike/Liverpool/otroški home 24,25/ae63810ec52298074c2534db7a43d28e.webp" alt="Liverpool otroški home 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>Liverpool otroški home 24,25</p>
+      <p>Liverpool kids home 24,25</p>
     </div>
   
     <div class="dres" data-klub="Liverpool" data-firma="Nike" data-leto="2025" data-liga="Premier League">
@@ -2342,7 +2348,7 @@
   <img src="Slike/Liverpool/otroški home 25,26/ced0cafdbf864bbb05de210efb8c7d88.webp" alt="Liverpool otroški home 25,26" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>Liverpool otroški home 25,26</p>
+      <p>Liverpool kids home 25,26</p>
     </div>
   
     <div class="dres" data-klub="Liverpool" data-firma="Nike" data-leto="2025" data-liga="Premier League">
@@ -2358,7 +2364,7 @@
           <img src="Slike/Liverpool/otroški third 24,25/9df6bbf5d85c0b92281677c8fb6a96a0.webp" alt="Liverpool otroški third 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>Liverpool otroški third 24,25</p>
+      <p>Liverpool kids third 24,25</p>
     </div>
   
     <div class="dres" data-klub="Liverpool" data-firma="Nike" data-leto="2025" data-liga="Premier League">
@@ -2440,7 +2446,7 @@
           <img src="Slike/Liverpool/special 3 barve/8f8adaa81a2873399ac6924aa13d475d.webp" alt="Liverpool special 3 barve">
         <button class="next">&#10095;</button>
       </div>
-      <p>Liverpool special 3 barve</p>
+      <p>Liverpool special 3 colors</p>
     </div>
   
     <div class="dres" data-klub="Liverpool" data-firma="Nike" data-leto="2025" data-liga="Premier League">
@@ -2498,7 +2504,7 @@
           <img src="Slike/Liverpool/trening brez rokavov bela/f58a60fb042344e23336aa0d8577b23e.webp" alt="Liverpool trening brez rokavov bela">
         <button class="next">&#10095;</button>
       </div>
-      <p>Liverpool trening brez rokavov bela</p>
+      <p>Liverpool training without sleeves white</p>
     </div>
   
     <div class="dres" data-klub="Liverpool" data-firma="Nike" data-leto="2025" data-liga="Premier League">
@@ -2509,7 +2515,7 @@
           <img src="Slike/Liverpool/trening brez rokavov crna/2fcc6521b0b7f5c940441edb06303874.webp" alt="Liverpool trening brez rokavov crna">
         <button class="next">&#10095;</button>
       </div>
-      <p>Liverpool trening brez rokavov crna</p>
+      <p>Liverpool training without sleeves black</p>
     </div>
   
     <div class="dres" data-klub="Liverpool" data-firma="Nike" data-leto="2025" data-liga="Premier League">
@@ -2524,28 +2530,28 @@
           <img src="Slike/Liverpool/zeleni 24,25/d1044d417ede9fa9e210ecad96a686e7.webp" alt="Liverpool zeleni 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>Liverpool zeleni 24,25</p>
+      <p>Liverpool green 24,25</p>
     </div>
   
-    <div class="dres" data-klub="mexico" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Mexico" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/mexico/06 home/4cefd8e29437b4556d342b59ff11830b.webp" alt="mexico 06 home" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>mexico 06 home</p>
+      <p>Mexico 06 home</p>
     </div>
   
-    <div class="dres" data-klub="mexico" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Mexico" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/mexico/22 away/8ebc235bc8a4c60cc4242b726125d49e.webp" alt="mexico 22 away" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>mexico 22 away</p>
+      <p>Mexico 22 away</p>
     </div>
   
-    <div class="dres" data-klub="mexico" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Mexico" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/mexico/24 away/5de2ba8aec0f15424b3675142e38666e.webp" alt="mexico 24 away" class="active">
@@ -2556,10 +2562,10 @@
           <img src="Slike/mexico/24 away/9661c4d290779efdb3d3fa7aff352855.webp" alt="mexico 24 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>mexico 24 away</p>
+      <p>Mexico 24 away</p>
     </div>
   
-    <div class="dres" data-klub="mexico" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Mexico" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/mexico/24 home/075248e66b328089fa056f52091905f5.webp" alt="mexico 24 home" class="active">
@@ -2572,10 +2578,10 @@
           <img src="Slike/mexico/24 home/8e79ed94b5b03df024b5bf35752ea3fe.webp" alt="mexico 24 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>mexico 24 home</p>
+      <p>Mexico 24 home</p>
     </div>
   
-    <div class="dres" data-klub="mexico" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Mexico" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/mexico/25 special black/071875891b8db0b7caa6f270f635886d.webp" alt="mexico 25 special black" class="active">
@@ -2584,10 +2590,10 @@
           <img src="Slike/mexico/25 special black/82e9c4cca3a5a5d047dcc7814041fc87.webp" alt="mexico 25 special black">
         <button class="next">&#10095;</button>
       </div>
-      <p>mexico 25 special black</p>
+      <p>Mexico 25 special black</p>
     </div>
   
-    <div class="dres" data-klub="mexico" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Mexico" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/mexico/98 away/131d8195a9d9eb2023b0af3cdc323b60.webp" alt="mexico 98 away" class="active">
@@ -2599,10 +2605,10 @@
           <img src="Slike/mexico/98 away/9e27696ad45c1fb32b0139605d9188e4.webp" alt="mexico 98 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>mexico 98 away</p>
+      <p>Mexico 98 away</p>
     </div>
   
-    <div class="dres" data-klub="mexico" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Mexico" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/mexico/98 home/39d0a5fe92d599d8496abe8889c710c5.webp" alt="mexico 98 home" class="active">
@@ -2611,10 +2617,10 @@
           <img src="Slike/mexico/98 home/86e72e72d6e577923b2b92add610be01.webp" alt="mexico 98 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>mexico 98 home</p>
+      <p>Mexico 98 home</p>
     </div>
   
-    <div class="dres" data-klub="nemcija" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Germany" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/nemcija/22 away/06e9900ced1957bf56a491c28a3d5c75.webp" alt="nemcija 22 away" class="active">
@@ -2628,10 +2634,10 @@
           <img src="Slike/nemcija/22 away/dbf13e262c67ed3d1502e484eead2f6f.webp" alt="nemcija 22 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>nemcija 22 away</p>
+      <p>Germany 22 away</p>
     </div>
   
-    <div class="dres" data-klub="nemcija" data-firma="Adidas" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Germany" data-firma="Adidas" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/nemcija/24 away/158e5e581cdf870eed743540934d58f2.webp" alt="nemcija 24 away" class="active">
@@ -2646,10 +2652,10 @@
           <img src="Slike/nemcija/24 away/f4397eb8de1c607b33b246739faba34c.webp" alt="nemcija 24 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>nemcija 24 away</p>
+      <p>Germany 24 away</p>
     </div>
   
-    <div class="dres" data-klub="nizozemska" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Netherlands" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/nizozemska/14 away/1480459ecdd227ea653932d7df5998a7.webp" alt="nizozemska 14 away" class="active">
@@ -2657,10 +2663,10 @@
           <img src="Slike/nizozemska/14 away/aff3274cfbb8e411b77a300f203d42cc_1080x.webp" alt="nizozemska 14 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>nizozemska 14 away</p>
+      <p>Netherlands 14 away</p>
     </div>
   
-    <div class="dres" data-klub="nizozemska" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Netherlands" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/nizozemska/14 home/27b8eca53550fe0ecb103ae50e899987.webp" alt="nizozemska 14 home" class="active">
@@ -2670,10 +2676,10 @@
           <img src="Slike/nizozemska/14 home/96362f9b0787d75e86ebaf4ebbbd8180.webp" alt="nizozemska 14 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>nizozemska 14 home</p>
+      <p>Netherlands 2014 home</p>
     </div>
   
-    <div class="dres" data-klub="nizozemska" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Netherlands" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/nizozemska/20 home/06e24050e8db16c1a58505d84cd8b11b.webp" alt="nizozemska 20 home" class="active">
@@ -2686,19 +2692,19 @@
           <img src="Slike/nizozemska/20 home/df14add4c503044193efb8ab5af14023.webp" alt="nizozemska 20 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>nizozemska 20 home</p>
+      <p>Netherlands 2020 home</p>
     </div>
   
-    <div class="dres" data-klub="nizozemska" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Netherlands" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/nizozemska/22 homa/4bafc79a7539c1f12965e965fc43b099.webp" alt="nizozemska 22 homa" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>nizozemska 22 homa</p>
+      <p>Netherlands 2022 home</p>
     </div>
   
-    <div class="dres" data-klub="nizozemska" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Netherlands" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/nizozemska/24 away/131e3467e1afec66a058b959f4062d8c.webp" alt="nizozemska 24 away" class="active">
@@ -2710,10 +2716,10 @@
           <img src="Slike/nizozemska/24 away/91a3d94acbb645ebf2bb2810b0d7fe6c.webp" alt="nizozemska 24 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>nizozemska 24 away</p>
+      <p>Netherlands 2024 away</p>
     </div>
   
-    <div class="dres" data-klub="nizozemska" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Netherlands" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/nizozemska/24 home/32f435937e3d08bdc713e188df6eea92.webp" alt="nizozemska 24 home" class="active">
@@ -2725,10 +2731,10 @@
           <img src="Slike/nizozemska/24 home/c67be35b6d010fae3b1e4004270921fe.webp" alt="nizozemska 24 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>nizozemska 24 home</p>
+      <p>Netherlands 2024 home</p>
     </div>
   
-    <div class="dres" data-klub="nizozemska" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Netherlands" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/nizozemska/24 special crna/0e0bcac35eaaa420ac3ebb5ac00969ea.webp" alt="nizozemska 24 special crna" class="active">
@@ -2738,10 +2744,10 @@
           <img src="Slike/nizozemska/24 special crna/63287eb9e17e732ac312fa1a02e971c9.webp" alt="nizozemska 24 special crna">
         <button class="next">&#10095;</button>
       </div>
-      <p>nizozemska 24 special crna</p>
+      <p>Netherlands 2024 special black</p>
     </div>
   
-    <div class="dres" data-klub="nizozemska" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Netherlands" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/nizozemska/88 home/23c5ab96871760bfea0b276066d052e7.webp" alt="nizozemska 88 home" class="active">
@@ -2752,19 +2758,19 @@
           <img src="Slike/nizozemska/88 home/f73bf466ce2ba9dbdc542c04fa002e04.webp" alt="nizozemska 88 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>nizozemska 88 home</p>
+      <p>Netherlands 1988 home</p>
     </div>
   
-    <div class="dres" data-klub="portugal" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Portugal" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/portugal/06 away/80ac698fe0a76058a1df8b67abb9d8d1.webp" alt="portugal 06 away" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>portugal 06 away</p>
+      <p>Portugal 2006 away</p>
     </div>
   
-    <div class="dres" data-klub="portugal" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Portugal" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/portugal/06 home/6a232f70ece88badda851df1634f3efe.webp" alt="portugal 06 home" class="active">
@@ -2772,10 +2778,10 @@
           <img src="Slike/portugal/06 home/dc4dd45eda30460ad43d45bc076752cd.webp" alt="portugal 06 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>portugal 06 home</p>
+      <p>Portugal 2006 home</p>
     </div>
   
-    <div class="dres" data-klub="portugal" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Portugal" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/portugal/12 away/0f9232b9240ff56508fe00e58d5473a5.webp" alt="portugal 12 away" class="active">
@@ -2788,20 +2794,20 @@
           <img src="Slike/portugal/12 away/8823a5497eb0dc49149b7b8f5b68cbad.webp" alt="portugal 12 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>portugal 12 away</p>
+      <p>Portugal 2012 away</p>
     </div>
   
-    <div class="dres" data-klub="portugal" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Portugal" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/portugal/16 home/540c1acef921d09d85da4e94b59e6223.webp" alt="portugal 16 home" class="active">
           <img src="Slike/portugal/16 home/775f7628990862ff2dc6d4817a87125d.webp" alt="portugal 16 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>portugal 16 home</p>
+      <p>Portugal 2016 home</p>
     </div>
   
-    <div class="dres" data-klub="portugal" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Portugal" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/portugal/22 away/46fba2a8964c8bad146da0b7e259442b.webp" alt="portugal 22 away" class="active">
@@ -2814,10 +2820,10 @@
           <img src="Slike/portugal/22 away/d1e3a72d4a0f47ea45a461a8725aadb9.webp" alt="portugal 22 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>portugal 22 away</p>
+      <p>Portugal 2022 away</p>
     </div>
   
-    <div class="dres" data-klub="portugal" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Portugal" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/portugal/24.25 away/1ab63d2b4cea338ce8af7745c25cd3cf.webp" alt="portugal 24.25 away" class="active">
@@ -2828,10 +2834,10 @@
           <img src="Slike/portugal/24.25 away/bfecb2483ea996a7e7c3059c82ec47ee.webp" alt="portugal 24.25 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>portugal 24.25 away</p>
+      <p>Portugal 24,25 away</p>
     </div>
   
-    <div class="dres" data-klub="portugal" data-firma="Nike" data-leto="2025" data-liga="National Team">
+    <div class="dres" data-klub="Portugal" data-firma="Nike" data-leto="2025" data-liga="National Team">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/portugal/25 away/5d42d5eaeeba37d651e0c09d52b2090b.webp" alt="portugal 25 away" class="active">
@@ -2843,7 +2849,7 @@
           <img src="Slike/portugal/25 away/dca5d1797eec1d6fdb40069c05266b7e.webp" alt="portugal 25 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>portugal 25 away</p>
+      <p>Portugal 2025 away</p>
     </div>
   
     <div class="dres" data-klub="PSG" data-firma="Nike" data-leto="2025" data-liga="Ligue 1">
@@ -2858,7 +2864,7 @@
           <img src="Slike/PSG/01.02 home/caac9a5100d8a868906a69840dd4228a.webp" alt="PSG 01.02 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>PSG 01.02 home</p>
+      <p>PSG 01,02 home</p>
     </div>
   
     <div class="dres" data-klub="PSG" data-firma="Nike" data-leto="2025" data-liga="Ligue 1">
@@ -2873,7 +2879,7 @@
           <img src="Slike/PSG/18.19 away/e648062f6a07233f9ed301ac09d4610d.webp" alt="PSG 18.19 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>PSG 18.19 away</p>
+      <p>PSG 18,19 away</p>
     </div>
   
     <div class="dres" data-klub="PSG" data-firma="Nike" data-leto="2025" data-liga="Ligue 1">
@@ -2882,7 +2888,7 @@
   <img src="Slike/PSG/18.19 crni/3a225d731965cef819f724b41019994f.webp" alt="PSG 18.19 crni" class="active">
         <button class="next">&#10095;</button>
       </div>
-      <p>PSG 18.19 crni</p>
+      <p>PSG 18,19 black</p>
     </div>
   
     <div class="dres" data-klub="PSG" data-firma="Nike" data-leto="2025" data-liga="Ligue 1">
@@ -2899,7 +2905,7 @@
           <img src="Slike/PSG/20.21 away/98cef04b33ea8286e308101c8b05e53d.webp" alt="PSG 20.21 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>PSG 20.21 away</p>
+      <p>PSG 20,21 away</p>
     </div>
   
     <div class="dres" data-klub="PSG" data-firma="Nike" data-leto="2025" data-liga="Ligue 1">
@@ -2915,7 +2921,7 @@
           <img src="Slike/PSG/21.22 away/da2dd1444652341a16524947f111708b.webp" alt="PSG 21.22 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>PSG 21.22 away</p>
+      <p>PSG 21,,22 away</p>
     </div>
   
     <div class="dres" data-klub="PSG" data-firma="Nike" data-leto="2025" data-liga="Ligue 1">
@@ -2931,7 +2937,7 @@
           <img src="Slike/PSG/21.22 home/f16b897112f904cbf09303f06e071ff6.webp" alt="PSG 21.22 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>PSG 21.22 home</p>
+      <p>PSG 21,22 home</p>
     </div>
   
     <div class="dres" data-klub="PSG" data-firma="Nike" data-leto="2025" data-liga="Ligue 1">
@@ -2945,7 +2951,7 @@
           <img src="Slike/PSG/21.22 trening/bc27a39f4ced107be1618169e54b7071.webp" alt="PSG 21.22 trening">
         <button class="next">&#10095;</button>
       </div>
-      <p>PSG 21.22 trening</p>
+      <p>PSG 21,22 trening</p>
     </div>
   
     <div class="dres" data-klub="PSG" data-firma="Nike" data-leto="2025" data-liga="Ligue 1">
@@ -2978,7 +2984,7 @@
           <img src="Slike/PSG/22.23 away/efc1538d862ae824119f56ccf5d764d6.webp" alt="PSG 22.23 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>PSG 22.23 away</p>
+      <p>PSG 22,23 away</p>
     </div>
   
     <div class="dres" data-klub="PSG" data-firma="Nike" data-leto="2025" data-liga="Ligue 1">
@@ -2992,7 +2998,7 @@
           <img src="Slike/PSG/23.24 away/8d7d95ee0e8300098cc35d152fd4943e_1080x.webp" alt="PSG 23.24 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>PSG 23.24 away</p>
+      <p>PSG 23,24 away</p>
     </div>
   
     <div class="dres" data-klub="PSG" data-firma="Nike" data-leto="2025" data-liga="Ligue 1">
@@ -3002,7 +3008,7 @@
           <img src="Slike/PSG/24.25 away/f56de5f9e9b3b8ccff9fef10870b714d.webp" alt="PSG 24.25 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>PSG 24.25 away</p>
+      <p>PSG 24,25 away</p>
     </div>
   
     <div class="dres" data-klub="PSG" data-firma="Nike" data-leto="2025" data-liga="Ligue 1">
@@ -3017,7 +3023,7 @@
           <img src="Slike/PSG/24.25 home/aae4494c6f2fcb3ea30ea6d665e17748.webp" alt="PSG 24.25 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>PSG 24.25 home</p>
+      <p>PSG 24,25 home</p>
     </div>
   
     <div class="dres" data-klub="PSG" data-firma="Nike" data-leto="2025" data-liga="Ligue 1">
@@ -3032,7 +3038,7 @@
           <img src="Slike/PSG/24.25 special crno vijolcn/fa7033818816b667471c96229413a7af.webp" alt="PSG 24.25 special crno vijolcn">
         <button class="next">&#10095;</button>
       </div>
-      <p>PSG 24.25 special crno vijolcn</p>
+      <p>PSG 24,25 special black and purple</p>
     </div>
   
     <div class="dres" data-klub="RB leipzig" data-firma="Nike" data-leto="2025" data-liga="Bundesliga">
@@ -3047,7 +3053,7 @@
           <img src="Slike/RB leipzig/23.24 away/d9dc62f038a966bbb9518f2841d7dcf0.webp" alt="RB leipzig 23.24 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>RB leipzig 23.24 away</p>
+      <p>RB leipzig 23,24 away</p>
     </div>
   
     <div class="dres" data-klub="RB leipzig" data-firma="Nike" data-leto="2025" data-liga="Bundesliga">
@@ -3104,7 +3110,7 @@
       <p>RB leipzig 25.26 trening</p>
     </div>
   
-    <div class="dres" data-klub="real madrid" data-firma="Adidas" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Real Madrid" data-firma="Adidas" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/real madrid/06.07 home/04aaf7447dc626c0dadf2f0d4abbe144.webp" alt="real madrid 06.07 home" class="active">
@@ -3117,10 +3123,10 @@
           <img src="Slike/real madrid/06.07 home/b7055021674e95988ce766bb30a9bfb1.webp" alt="real madrid 06.07 home">
         <button class="next">&#10095;</button>
       </div>
-      <p>real madrid 06.07 home</p>
+      <p>Real Madrid 06,07 home</p>
     </div>
   
-    <div class="dres" data-klub="real madrid" data-firma="Adidas" data-leto="2025" data-liga="La Liga">
+    <div class="dres" data-klub="Real Madrid" data-firma="Adidas" data-leto="2025" data-liga="La Liga">
       <div class="dres-slider">
         <button class="prev">&#10094;</button>
   <img src="Slike/real madrid/08.09 away/081c8adb287709fb69a50d960f529ed8.webp" alt="real madrid 08.09 away" class="active">
@@ -3135,7 +3141,7 @@
           <img src="Slike/real madrid/08.09 away/e3f233ba5599f9b57354a728906e5542.webp" alt="real madrid 08.09 away">
         <button class="next">&#10095;</button>
       </div>
-      <p>real madrid 08.09 away</p>
+      <p>Real Madrid 08,09 away</p>
     </div>
   
     <div class="dres" data-klub="real madrid" data-firma="Adidas" data-leto="2025" data-liga="La Liga">
@@ -3275,7 +3281,7 @@
           <img src="Slike/real madrid/22.23 kinezki zmaj/c0ca7f2748e0d03326f749dae3a716f0.webp" alt="real madrid 22.23 kinezki zmaj">
         <button class="next">&#10095;</button>
       </div>
-      <p>real madrid 22.23 kinezki zmaj</p>
+      <p>real madrid 22.23 chinese dragon</p>
     </div>
   
     <div class="dres" data-klub="real madrid" data-firma="Adidas" data-leto="2025" data-liga="La Liga">
@@ -3545,7 +3551,7 @@
           <img src="Slike/Sao Paulo/home hlacke 24,25/8a0231208138861f2d3bb43743b21f61.webp" alt="Sao Paulo home hlacke 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>Sao Paulo home hlacke 24,25</p>
+      <p>Sao Paulo home shorts 24,25</p>
     </div>
   
     <div class="dres" data-klub="Sao Paulo" data-firma="Adidas" data-leto="2025" data-liga="Brazilian League">
@@ -3745,7 +3751,7 @@
           <img src="Slike/United/otroški away 24,25/a3ab438bca2d56d59453f43c9396ac45.webp" alt="United otroški away 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>United otroški away 24,25</p>
+      <p>United kids away 24,25</p>
     </div>
   
     <div class="dres" data-klub="United" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -3755,7 +3761,7 @@
           <img src="Slike/United/otroški home 24,25/998e73cfab21c0ca93b820fc5e1f301f.webp" alt="United otroški home 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>United otroški home 24,25</p>
+      <p>United kids home 24,25</p>
     </div>
   
     <div class="dres" data-klub="United" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -3805,7 +3811,7 @@
           <img src="Slike/United/retro away otroški 07,08/bb4eee842f461bf76f3f24c966ae7be5.webp" alt="United retro away otroški 07,08">
         <button class="next">&#10095;</button>
       </div>
-      <p>United retro away otroški 07,08</p>
+      <p>United retro away kids 07,08</p>
     </div>
   
     <div class="dres" data-klub="United" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -3863,7 +3869,7 @@
           <img src="Slike/United/retro home cl 07,08/f3b67914b92c322af5efffaef1da7ee1.webp" alt="United retro home cl 07,08">
         <button class="next">&#10095;</button>
       </div>
-      <p>United retro home cl 07,08</p>
+      <p>United retro home UCL 07,08</p>
     </div>
   
     <div class="dres" data-klub="United" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -3878,7 +3884,7 @@
           <img src="Slike/United/retro home cl otroški 07,08/8b60668640ac0521fc168a0ae98e318c.webp" alt="United retro home cl otroški 07,08">
         <button class="next">&#10095;</button>
       </div>
-      <p>United retro home cl otroški 07,08</p>
+      <p>United retro home UCL kids 07,08</p>
     </div>
   
     <div class="dres" data-klub="United" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -3891,7 +3897,7 @@
           <img src="Slike/United/special crn 24,25/c021e3881a2dbf32fba9de4e60fbfb95.webp" alt="United special crn 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>United special crn 24,25</p>
+      <p>United special black 24,25</p>
     </div>
   
     <div class="dres" data-klub="United" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -3906,7 +3912,7 @@
           <img src="Slike/United/special edition crni 24,25/9677678e701fbd7335bf7ddbc30e7289.webp" alt="United special edition crni 24,25">
         <button class="next">&#10095;</button>
       </div>
-      <p>United special edition crni 24,25</p>
+      <p>United special edition black 24,25</p>
     </div>
   
     <div class="dres" data-klub="United" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
@@ -3923,7 +3929,7 @@
           <img src="Slike/United/special vijolcn 25,26/d0310c13cdf59ddebba5529953913ec4.webp" alt="United special vijolcn 25,26">
         <button class="next">&#10095;</button>
       </div>
-      <p>United special vijolcn 25,26</p>
+      <p>United special purple 25,26</p>
     </div>
   
     <div class="dres" data-klub="United" data-firma="Adidas" data-leto="2025" data-liga="Premier League">
